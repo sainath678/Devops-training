@@ -1,0 +1,5 @@
+Devops = Devlopment + Operation
+Development = Developers, QA, and Build engineer
+Operation = Config, DBA, Admins etc
+
+Devops is the collaboration and communication between Developer and Operation team in system development life cycle with the help of various automation tools.
