@@ -1,0 +1,49 @@
+
+GIT Commands:
+
+* git init  -- used to create(initiate) local master repository.
+
+* After creating any file in local repository for ex: Introduction.txt(filename) to check file status, following command is used:
+   
+  git status -- 1)if the status of file is in RED color then it is in working area.
+		2)if the status of file is in GREEN color then it is in staging area.
+
+* To add Introduction.txt file into staging area, following command is used:
+
+  git add Introduction.txt(filename)
+
+* To commit the above file, following command is used:
+
+  git commit -m "added Introduction.txt by Sai"
+
+* After commit to check its log, following command is used:
+
+  git log
+
+* To push the file from local repository(master) to github repository(master), following command is used:
+
+  git push origin master   
+
+* To create branch, following command is used:
+ 
+  git branch resources(branch name)
+
+* To check branches details, following command is used:
+
+  git branch
+
+* To change from master repository to branch repository, following command is used:
+
+  git checkout resources(branch name)
+
+* To push files from branch to github repository, following command is used:
+
+  git push origin resources(branch name)
+
+* To get all updated branch files from github master repository to local master repository, following command is used:
+
+  git pull origin master
+
+* To check all done process in one graph, following command is used:
+
+  git log --oneline --decorate --graph --all 
