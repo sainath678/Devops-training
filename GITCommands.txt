@@ -47,3 +47,24 @@ GIT Commands:
 * To check all done process in one graph, following command is used:
 
   git log --oneline --decorate --graph --all 
+
+* For undo file changes made, following commands are used:
+
+  git checkout -- GITCommands.txt(file name) -- undo changes in the working area
+
+  git reset HEAD GITCommands.txt -- undo changes from staging area to working area
+
+  git reset HEAD~  -- undo changes from commit to working area
+
+* To merge in the local repository from one branch to another branch, following command is used:
+
+  1)Create a file in one branch(resources)
+  2)After creating file switch to other branch (master)
+  3) Use the below command 
+
+      git merge resources
+
+* To check the changes made in the file, following command is used:
+
+  git diff --GITCommands.txt
+ 
